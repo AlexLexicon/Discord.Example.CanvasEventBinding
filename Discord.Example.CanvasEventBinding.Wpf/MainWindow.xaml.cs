@@ -3,5 +3,9 @@
 namespace Discord.Example.CanvasEventBinding.Wpf;
 public partial class MainWindow : Window
 {
-    public MainWindow() => InitializeComponent();
+    public MainWindow()
+    {
+        InitializeComponent();
+        MyCanvas.Focus();
+    }
 }
